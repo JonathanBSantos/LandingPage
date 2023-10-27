@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Escola DNC - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    
+<body>
+    <script src="index.js"></script>   
+   <!-- Menu Superior   -->
+    <div id="Menu-superior">
+        <a href="https://www.escoladnc.com.br" target="_blank"><img src="Images/Logo.svg" id="Logo" alt="Error"></a>
+        <h1 id="Titulo-menu-superior">Dê os primeiros passos da <br>
+            sua carreira em Tecnologia</h1>
+        <p id="Texto-menu-superior">
+            Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas.</p>
+    </div>
+
+    <!--Menu informacional-->
+    <div id="Menu-informacional">  
+
+        
+        <p class="texto-informativo">
+            <img src="Icones/Certificado.svg" alt="Error"
+            class="icone">Certificado de conclusão
+        </p>
+        
+        <p class="texto-informativo">
+            <img src="Icones/Relogio.svg" alt="Error" class="icone">4 horas de conteúdo</p>
+        <p class="texto-informativo">
+            <img src="Icones/Camera.svg" alt="Error" class="icone">
+            Aulas online gravadas
+        </p>
+        
+    </div>
+
+    <!-- Seção Video -->
+    <div id="secao-video">
+        <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/45BeP-XJDFA" title="Conheça a Jornada do Aluno DNC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div id="conteudo-texto-video">
+            <h1 id="titulo-video">Aprenda com especialistas e <br>comece seu primeiro projeto</h1>
+            <p id="texto-video">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+            os principais métodos e ferramentas da área para resolver <br> problemas complexos.
+            Conquiste seu certificado e desenvolva um projeto prático para <br>
+            aplicar seus conhecimentos.</p>
+        </div>
+        
+    </div>
+
+    <!-- Carrossel -->
+    <div id="Carrossel">
+        <h1 id="titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+        <div id="div-card">
+            <img id="Seta-esquerda" class="Setas" src="Icones/Seta-esquerda.svg" alt="Seta-esquerda">
+            <img id="Bruna" class="card" src="Cards/Bruna.svg" alt="Card-Bruna">
+            <img  id="Leonardo" class="card" src="Cards/Leonardo.svg" alt="Card-Leonardo">
+            <img id="Samantha" class="card" src="Cards/Samantha.svg" alt="Card-Samantha">
+            <img id="Seta-direita" onclick="RolarParaDireita()" class="Setas" src="Icones/Seta-direita.svg" alt="Seta-direita">
+        </div>
+
+    </div>
+    
+   
+  
+    
+    
+</body>
+</html>

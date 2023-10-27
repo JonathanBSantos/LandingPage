@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    
+}
+ 
+#Logo{
+    margin-top: 52px;
+    margin-left: 56px;
+   }
+
+#Menu-superior{
+    background: url(Images/Fundo-menu-superior.svg);
+    color: aliceblue;
+    padding-bottom: 151px;
+}
+
+#Titulo-menu-superior{
+    margin-top: 75px;
+    margin-left: 172px;
+
+    }
+#Texto-menu-superior{
+    margin-top: 32px;
+    margin-left: 172px;
+}
+
+#Menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}  
+.texto-informativo{
+    display: flex;
+    align-items: center;
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 25px 50px 100px;
+
+}
+
+#titulo-video{
+   color: #247BA0;
+}
+
+#conteudo-texto-video{
+    margin-top: 97px;
+}
+
+#Carrossel{
+    background: #247BA0;
+    padding: 50px;
+    font-size: 20px;
+}
+
+#titulo-carrossel{
+    color: aliceblue;
+    text-align: center;
+}
+#div-card{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.card{
+    margin-left: 33px;
+}
+#Samantha{
+    display: none;
+}
+
+#Seta-esquerda{
+    display: none;
+}
+
+.Setas{
+    margin: 55%;
+}
