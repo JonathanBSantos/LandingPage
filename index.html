@@ -12,7 +12,7 @@
 </head>
     
 <body>
-    <script src="index.js"></script>   
+    
    <!-- Menu Superior   -->
     <div id="Menu-superior">
         <a href="https://www.escoladnc.com.br" target="_blank"><img src="Images/Logo.svg" id="Logo" alt="Error"></a>
@@ -60,7 +60,7 @@
     <div id="Carrossel">
         <h1 id="titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
         <div id="div-card">
-            <img id="Seta-esquerda" class="Setas" src="Icones/Seta-esquerda.svg" alt="Seta-esquerda">
+            <img id="Seta-esquerda" onclick="RolarParaEsquerda()" class="Setas" src="Icones/Seta-esquerda.svg" alt="Seta-esquerda">
             <img id="Bruna" class="card" src="Cards/Bruna.svg" alt="Card-Bruna">
             <img  id="Leonardo" class="card" src="Cards/Leonardo.svg" alt="Card-Leonardo">
             <img id="Samantha" class="card" src="Cards/Samantha.svg" alt="Card-Samantha">
@@ -68,10 +68,25 @@
         </div>
 
     </div>
+
+        <!--Formulário--> 
+    <div id="formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+        <form action="https://api.sheetmonkey.io/form/9kuFhof3yps4JZ1dBXmaKJ" method="post">
+            <input type="text" placeholder="Nome" name="Name" required><br>
+            <input type="email" placeholder="E-mail" name="Email" required><br>
+            <input type="number" placeholder="Telefone" name="phone"><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">
+                Acesse a ementa grátis
+            </button>
+        </form>
+
+    </div>
     
    
-  
     
-    
+    <script src="index.js"></script>    
 </body>
 </html>
+

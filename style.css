@@ -68,11 +68,16 @@
 #titulo-carrossel{
     color: aliceblue;
     text-align: center;
+    margin-bottom: 25px;
 }
 #div-card{
     display: grid;
     grid-auto-flow: column;
-    
+    align-items: center;
+    padding: 32px 40px;
+    align-items: center;
+    gap: 24px;
+        
 }
 
 .card{
@@ -88,4 +93,54 @@
 
 .Setas{
     margin: 55%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Setas:hover{
+    transform:translateY(-7px);
+    transition: 0.5s;
+
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 32px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 7px;
+    padding-left: 10px;
+    
+}
+
+button{
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 7px;
+    border-bottom: 50px;
+    width: 250px;
+    height: 53px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    background-color: #45a6cf;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #2d6075;
+    transition-duration: 0.5s;
 }
